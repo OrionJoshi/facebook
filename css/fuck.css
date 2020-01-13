@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+body {
+  line-height: 1.34;
+}
+
+/* Universal Class */
+
+a {
+  color: #385898;
+}
+
+/* End of Universal Class */
+
+.fb-navbar {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+}
+
+.fb-navbar-in {
+  width: 980px;
+  margin: 0 auto;
+  padding: 12px 0 4px 0;
+}
+
+.fb-icon {
+  float: left;
+}
+
+.fb-icon-in a{
+  margin-top: 5px;
+  padding: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Right Section */
+
+.fb-login {
+  float: right;
+}
+
+.login-title td{
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.login-title td:last-child {
+  padding-left: 14px;
+}
+
+.login-input input[type="email"],
+.login-input input[type="password"]{
+  margin: 0;
+  padding: 3px 4px;
+  width: 152px;
+  border: 1px solid #1d2a5b;
+  font-size: 12px;
+}
+
+.login-input td:nth-child(2),
+.login-input td:nth-child(3) {
+  padding-left: 14px;
+}
+
+.login-btn {
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  background-color: #4267b2;
+}
+
+.forget-password td:last-child {
+  padding-left: 14px;
+}
+
+.forget-password a{
+  padding: 0;
+  font-size: 12px;
+  color: #9cb4d8;
+}
+
+/* Bottom Section */
+.signup-section {
+  background-color: #edf0f5;
+}
+
+.signup-section-in {
+  width: 980px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.signup-left-top h2 {
+  padding: 42px 0 24px 0;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.signup-left-content {
+  font-weight: bold !important;
+  margin-left: 16px;
+  color: #333;
+  font-size: 17px;
+}
+
+.signup-left-bottom-box {
+  color: #666;
+  margin-top: 14px;
+  padding-bottom: 10px;
+}
+
+.signup-left-bottom-box span {
+  line-height: 22px;
+  font-size: 15px;
+}
+
+/* Right Section Information */
+
+.signup-right-top h2 {
+  margin-bottom: 5px;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.signup-right-top div {
+  font-size: 19px;
+  letter-spacing: -0.5px;
+}
+
+/* Middle Information */
+/* form elements styel */
+
+
+.signup-right-middle form {
+  padding: 20px 0 15px 0;
+}
+
+.signup-top-input-right {
+  float: right;
+}
+
+input.form-control {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 8px 10px;
+}
+
+.form-control::placeholder {
+  color: #999999;
+}
+
+.form-control:focus {
+  border: 1px solid #ced4da;
+  color: #999999;
+  box-shadow: none;
+}
+
+/* Birthday Section */
+
+.fb-birthday-text, .fb-gender-text {
+  color: #90949c;
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+.fb-birthday-date select {
+  padding: 3px 5px;
+  border: 1px solid #ccd0d5;
+  margin-left: -4px;
+}
+
+.fb-birthday-date select:first-child {
+  margin-left: 0;
+}
+
+.fb-birthday-date select option {
+  color: #1c1e21;
+  font-size: 13px;
+}
+
+.fb-gender-box {
+  padding: 5px 0 5px 4px;
+}
+
+.fb-gender-box label {
+  font-size: 18px;
+  color: #1d2129;
+  padding: 0 10px 0 3px;
+}
+
+.fb-gender-info {
+  color: #777;
+  width: 316px;
+  font-size: 11px;
+  letter-spacing: 0px;
+}
+
+.birthday-help .fas, .gender-help .fas {
+  color: #606770;
+}
+
+/* Signup Buttom Section */
+
+.fb-sign-up-button input[type="submit"] {
+  background-image: linear-gradient(#79bc64, #578843);
+  min-width: 194px;
+  padding: 7px 20px;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+/* create Page Section */
+
+.fb-create-page {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* footer content */
+/* footer top */
+
+.fb-footer {
+  background-color: #fff;
+}
+
+.fb-footer-in {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.fb-footer-in ul {
+  padding: 0;
+  margin-left: -10px;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.fb-footer-in ul li {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.fb-footer-active {
+  color: #737373;
+}
+
+.fb-footer-top .fas {
+  border: 1px solid #ccd0d5;
+  background-color: #f5f6f7;
+  padding: 3px 8px;
+}
+
+
+.fb-footer-hr {
+  border-bottom: 1px solid #dddfe2;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.fb-footer-copyright {
+  margin: 20px 0;
+  font-size: 11px;
+  color: #737373;
+}
